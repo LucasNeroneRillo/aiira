@@ -11,6 +11,3 @@ RUN pip install -r requirements.txt
 
 # Copy project files
 COPY . /django/
-
-# Collect static files
-RUN python manage.py collectstatic --noinput
